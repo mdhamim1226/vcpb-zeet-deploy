@@ -71,7 +71,7 @@ RUN cd /root && \
     git clone https://github.com/rojserbest/vcpb.git vcpb && \
     cd /root && \
     rm -R /root/xrdp && \
-    rm -R /root/xorgxrdp && \
+    rm -R /root/xorgxrdp && \ 
     
     apt-mark manual libfdk-aac1 && \
     apt-get -y purge \
